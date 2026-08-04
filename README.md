@@ -7,7 +7,6 @@ The visual rules and direct component adaptations come from the COSS source incl
 ## Install and run
 
 ```bash
-cd coss-component-library
 npm install
 npm run dev
 ```

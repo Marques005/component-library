@@ -1,0 +1,1 @@
+export function ShadowsPreview() { return <div className="grid grid-cols-1 gap-5 sm:grid-cols-3">{["xs", "sm", "lg"].map((shadow) => <div className="flex h-24 items-center justify-center rounded-xl border bg-card text-muted-foreground text-xs" key={shadow} style={{ boxShadow: `var(--shadow-${shadow})` }}>shadow-{shadow}</div>)}</div>; }

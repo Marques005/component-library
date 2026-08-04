@@ -1,0 +1,1 @@
+export function RadiusPreview() { return <div className="flex flex-wrap gap-4">{["sm", "md", "lg", "xl", "2xl"].map((radius) => <div key={radius}><div className="size-20 border bg-muted" style={{ borderRadius: `var(--radius-${radius})` }} /><code className="mt-2 block text-center text-muted-foreground text-xs">{radius}</code></div>)}</div>; }
